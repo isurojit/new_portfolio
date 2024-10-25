@@ -44,7 +44,7 @@ const Navbar = () => {
           to="#"
           onClick={handleDownload}
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            isActive ? "text-black" : "text-blue-600"
           }
         >
           Download CV
