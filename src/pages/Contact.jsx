@@ -81,6 +81,7 @@ const Contact = () => {
         <form
           name="contact"
           method="POST"
+          action="https://formsubmit.co/your@email.com"
           data-netlify="true"
           ref={formRef}
           onSubmit={handleSubmit}
